@@ -23,6 +23,9 @@ app.get("/someRoute", function(req, res){
 app.get("/someOtherRoute", function(req,res){
     res.send("some other route")
 })
+app.get("/cadbary", function(req,res){
+    res.send("cadbary route")
+})
 
 app.listen(1234,function(){
     console.log("server connected")
