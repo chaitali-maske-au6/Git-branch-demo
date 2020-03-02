@@ -16,9 +16,7 @@ app.get("/users", basiclogger,authenticate,function(req, res){
     res.send("user route")
 });
 
-app.get("/someRoute", funcion(req, res){
-    res.send("some route")
-});
+
 
 app.listen(1234,function(){
     console.log("server connected")
