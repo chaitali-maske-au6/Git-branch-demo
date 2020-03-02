@@ -16,9 +16,13 @@ app.get("/users", basiclogger,authenticate,function(req, res){
     res.send("user route")
 });
 
-app.get("/someRoute", funcion(req, res){
+app.get("/someRoute", function(req, res){
     res.send("some route")
 });
+
+app.get("/cadbary", function(req,res){
+    res.send("cadbary route")
+})
 
 app.listen(1234,function(){
     console.log("server connected")
